@@ -1,0 +1,46 @@
+Wstęp:
+Gra Hex Citizen została opracowana by świadomość w przystempny sposób. Podczas gry gracze wcielą się zarówno w planistów 
+(zglaszajacych projekty), jaki i w mieszkańców (głosujących). Gra pokazuje, że każdy obywatel ma realny wpływ na swoje otoczenie oraz
+
+Przygotowanie:
+Gra przeznaczona jest dla 8 osób.
+Na począku gry każdu z graczy otrzymuje trzy karty celu. Celem gry jest zdobycie jak największej liczby punktów poprzez realizację zadań na kartach celów.
+
+Rozgrywka:
+
+Pierwszy gracz rozpoczyna grę jako planista. Planista zawsze dysponuje budrzetem obywatelskim (1000 złotych), które wydaje tworzac projekty.
+Robi to po przez: 
+1. wybranie pola planszu
+2. wybranie jednego z czterech projektów, są to:
+ 
+- parki,
+- tereny mieszkalne,
+- sklepy,
+- biórowce,
+
+Każda projekt kosztuje 250 złotych, więc gracz może zaproponować podczas tury dokładnie cztery projekty. pozostałe do wydania punkty są widoczne w prawym górnym rogu ekranu. Ruch planisty kończy się w momencie wydania przez niego całego budrzetu.
+
+Kolejni gracze przyjmują role głosujących. Każdy głosujacy oddaje jeden głos (tak lub nie) na każdy z projektów budowy.
+Po zakończeniu głosowania w zależności od wyniku wyborów planowany budynek powstaje (gdzy więcej zagłosowało na tak) lub nie (gdzy więcej zagłosowało na nie).
+
+
+W nastempnej kolejce rola planisty przechodzi do nastempnego w kolejności gracza. Rozgrywka toczy się dalej.
+
+Koniec gry:
+Gra kończy się po zakończeniu trzech pełnych kolejek (24 tury). Po zakończeniu gry każdy gracz dowiaduje się ile zdobył punktów.
+
+
+
+
+Plik .exe do gry znajduje się w głównym katalogu wewnątrz folderu builds. Aby uruchomić grę należy pobrać paczkę .zip, rozpakować ją i uruchomić plik .exe znajdujący się w folderze builds. 
+
+
+
+
+P.S.  aby połączyć się z innymi graczami w menu głównym: 
+	1. osoba toworząca grę musi wpisać swój adres I.P oraz port po czym nacisnąć przycisk host
+	2. osoba dołaczającz do gry musi wpisać adres I.P oraz port osoby tworzącej grę po czym nacisnąć przycisk client
+
+
+P.P.S Jeżeli połączenie sieciowe nie zadziała proszę wpisać adres IP: 127.0.0.1 oraz port: 7777 i uruchomic wiele okien programu, każde okno to inny gracz.
+
