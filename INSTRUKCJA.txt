@@ -29,7 +29,7 @@ W nastempnej kolejce rola planisty przechodzi do nastempnego w kolejności gracz
 Koniec gry:
 Gra kończy się po zakończeniu trzech pełnych kolejek (24 tury). Po zakończeniu gry każdy gracz dowiaduje się ile zdobył punktów.
 
-
+Gracze w żadnym momęcie nie mogą się komunikować ze sobą ani widzieć nawzajem swoich monitorów. Jedynym wyjątkiem jest koniec gry, gdzie gracze mogą mówić innym o swojej punktacji.
 
 
 Plik .exe do gry znajduje się w głównym katalogu wewnątrz folderu builds. Aby uruchomić grę należy pobrać paczkę .zip, rozpakować ją i uruchomić plik .exe znajdujący się w folderze builds. 
@@ -40,6 +40,7 @@ Plik .exe do gry znajduje się w głównym katalogu wewnątrz folderu builds. Ab
 P.S.  aby połączyć się z innymi graczami w menu głównym: 
 	1. osoba toworząca grę musi wpisać swój adres I.P oraz port po czym nacisnąć przycisk host
 	2. osoba dołaczającz do gry musi wpisać adres I.P oraz port osoby tworzącej grę po czym nacisnąć przycisk client
+	3. gracze powinni się łączyć przez sieć LAN lub lokalną
 
 
 P.P.S Jeżeli połączenie sieciowe nie zadziała proszę wpisać adres IP: 127.0.0.1 oraz port: 7777 i uruchomic wiele okien programu, każde okno to inny gracz.

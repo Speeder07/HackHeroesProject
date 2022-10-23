@@ -479,7 +479,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -56.7, y: 137.9}
+  m_AnchoredPosition: {x: -89, y: 137.9}
   m_SizeDelta: {x: 600, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &137837753
@@ -506,8 +506,9 @@ MonoBehaviour:
 
 '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 255657ef29c6cbc439a408f186f96212, type: 2}
+  m_sharedMaterial: {fileID: 9132404188390097315, guid: 255657ef29c6cbc439a408f186f96212,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -700,8 +701,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 206.7, y: 139.2}
-  m_SizeDelta: {x: 300, y: 150}
+  m_AnchoredPosition: {x: 243, y: 159}
+  m_SizeDelta: {x: 400, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &297226994
 MonoBehaviour:
@@ -939,36 +940,39 @@ MonoBehaviour:
   - {fileID: 594304437}
   endGameMenager: {fileID: 701817798}
   taskContents:
-  - title: Tania sila robocza
-    content: "1pkt za ka\u017Cdy kafelek mieszkalny s\u0105siaduj\u0105cy z wie\u017Cowcem.
+  - title: "Tania si\u0142a robocza"
+    content: "1 pkt za ka\u017Cdy kafelek mieszkalny s\u0105siaduj\u0105cy z wie\u017Cowcem.
       -2pkt za ka\u017Cdy wie\u017Cowiec bez s\u0105siaduj\u0105cych kafelk\xF3w
       mieszkalnych"
     image: {fileID: 21300000, guid: 5325d6271abd618449517b7b775e46f4, type: 3}
   - title: "R\xF3\u017Cnorodne miasto"
-    content: "3pkt za ka\u017Cdy kafelek mieszkalny s\u0105siaduj\u0105cy z r\xF3wn\u0105
-      ilosci\u0105 sklep\xF3w, wie\u017Cowc\xF3w i park\xF3w"
+    content: "3 pkt za ka\u017Cdy kafelek mieszkalny s\u0105siaduj\u0105cy z r\xF3wn\u0105
+      ilo\u015Bci\u0105 sklep\xF3w, wie\u017Cowc\xF3w i park\xF3w"
     image: {fileID: 21300000, guid: c013349e8683f5845b0dfe8ead356441, type: 3}
   - title: Plan developerski
     content: "Klastry wie\u017Cowc\xF3w sk\u0142adaj\u0105ce si\u0119 z : 1 kafelka
-      = -1pkt, 2=1pkt, 3=3pkt, 4>=5pkt"
+      = -1pkt, 2 kafelk\xF3w =1pkt, 3 kafelki=3pkt, 4 lub wi\u0119cej kafelk\xF3w=5pkt"
     image: {fileID: 21300000, guid: fec63f7ef9b84564eb8fddf17a56b097, type: 3}
-  - title: Pozbywanie sie konkurencji
-    content: "1pkt sklep bez s\u0105siad\xF3w. -2pkt ka\u017Cdy klaseter sklep\xF3w"
+  - title: "Pozbywanie si\u0119 konkurencji"
+    content: "1 pkt sklep bez s\u0105siad\xF3w. -2pkt ka\u017Cdy klaster sklep\xF3w"
     image: {fileID: 21300000, guid: 1eeb538005b8c7a44a4b3c11b4d32920, type: 3}
-  - title: wiejski klimat
+  - title: Wiejski klimat
     content: "1pkt za ka\u017Cdy park s\u0105siaduj\u0105cy z najwi\u0119kszym klastrem
       miejskim"
     image: {fileID: 21300000, guid: d7054d2ba5133034bad3bec237d03bd2, type: 3}
   - title: Zielone miejsca pracy
-    content: "2pkt za kazdy wiezowiec sasiaduj\u0105cy z przenajmniej 2 parkami.
-      -2 pkt za kazdy wiezowic s\u0105siadujacy z conajmniej 2 kafelkami mieszkalnymi"
+    content: "2 pkt za ka\u017Cdy wie\u017Cowiec s\u0105siaduj\u0105cy z przynajmniej
+      2 parkami. -2 pkt za ka\u017Cdy wie\u017Cowic s\u0105siaduj\u0105cy z conajmniej
+      2 kafelkami mieszkalnymi"
     image: {fileID: 21300000, guid: 230109e12935f1d45bf6ecbfdbb47b5c, type: 3}
   - title: Trasy spacerowe
-    content: "1 pkt za kazdy kafelek parku pomiedzy ka\u017Cdym  domem a sklepem"
+    content: "1 pkt za ka\u017Cdy kafelek parku pomi\u0119dzy ka\u017Cdym  domem
+      a sklepem"
     image: {fileID: 21300000, guid: 3cf2e9c81b3b4004d9f9699a6a72e4c8, type: 3}
-  - title: Specializowane osiedle
-    content: "1 pkt za liczb\u0119 budynk\xF3w z koloru kt\xF3ry wyst\u0119puje najcz\u0119\u015Bciej
-      minus liczba budynk\xF3w koloru kt\xF3ry wyst\u0119puje przawie najcz\u0119\u015Bciej"
+  - title: Specjalizowane osiedle
+    content: "1 pkt za liczb\u0119 budynk\xF3w z koloru, kt\xF3ry wyst\u0119puje
+      najcz\u0119\u015Bciej minus liczba budynk\xF3w koloru, kt\xF3ry wyst\u0119puje
+      prawie najcz\u0119\u015Bciej"
     image: {fileID: 21300000, guid: 1bcbb337910a3b3449d36d64c4c8ec9a, type: 3}
 --- !u!1 &437947634
 GameObject:
